@@ -60,14 +60,14 @@ angular.module('MyApp', ['jm.i18next']).controller('MyDirectiveCtrl', function (
 # Using I18Next In HTML.
 # File : Index.html
 
-<div ng-controller="MyDirectiveCtrl">
-		<p>
-			Change language to: <br>
-			<a href="#" ng-click="changeLng('En')">English</a><br>
-			<a href="#" ng-click="changeLng('Ar')">Arabic</a>
-		</p>
-		<h2 ng-i18next="Key1"></h2>
-		<p ng-i18next="Key1"></p>
-	</div>
+&lt;div ng-controller="MyDirectiveCtrl"&gt;
+		&lt;p&gt;
+			Change language to: &lt;br&gt;
+			&lt;a href="#" ng-click="changeLng('En')"&gt;English&lt;/a&gt;&lt;br&gt;
+			&lt;a href="#" ng-click="changeLng('Ar')"&gt;Arabic&lt;/a&gt;
+		&lt;/p&gt;
+		&lt;h2 ng-i18next="Key1"&gt;&lt;/h2&gt;
+		&lt;p ng-i18next="Key1"&gt;&lt;/p&gt;
+	&lt;/div&gt;
   
 
